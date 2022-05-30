@@ -51,11 +51,14 @@
   padding: 0px;
 }
 
-.section__task, .section__name {
+.section__task, 
+.section__name {
   list-style: none;
 }
 
-.section__task-checkbox, .section__task-name, .button{
+.section__task-checkbox, 
+.section__task-name, 
+.button{
   outline: none;
 }
 

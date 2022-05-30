@@ -8,20 +8,22 @@
   </head>
 
   <body class="body">
-    <div class="header">
-      <img src="./eisenhower-matrix.jpg" alt="The Eisenhower matrix" class="header__img">
+    <header class="header">
+      <figure>
+        <img src="./eisenhower-matrix.jpg" alt="The Eisenhower matrix" class="header__img">
+      </figure>
       <a class="header__more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="main">
+    </header>
+    <main class="main">
       <h3 class="section__name">Add Item</h3>
-      <p class="section">
+      <section class="section">
         <div class="section__task">
           <input id="new-task" class="section__new-task-input" type="text">
           <button class="button button__add">Add</button>
         </div>
-      </p>
+      </section>
       <h3 class="section__name">Todo</h3>
-      <ul id="incomp-tasks" class="section">
+      <section id="incomp-tasks" class="section">
         <li class="section__task">
           <input type="checkbox" class="section__task-checkbox">
           <label class="section__task-name">Pay Bills</label>
@@ -40,9 +42,9 @@
             <img src="./remove.svg" alt="remove" class="button__delete-img">
           </button>
         </li>
-      </ul>
+      </section>
       <h3 class="section__name">Completed</h3>
-      <ul id="completed-tasks" class="section">
+      <section id="completed-tasks" class="section">
         <li class="section__task">
           <input type="checkbox" class="section__task-checkbox" checked>
           <label class="section__task-name section__task-name_comp">See the Doctor</label>
@@ -52,8 +54,8 @@
             <img src="./remove.svg" alt="remove" class="button__delete-img">
           </button>
         </li>
-      </ul>
-    </div>
+      </section>
+    </main>
     <script src="app.js"></script>
   </body>
 
